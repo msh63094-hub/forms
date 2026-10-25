@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>نموذج تسجيل - ملك شقورة</title>
+</head>
+<body>
+
+<h1>نموذج تسجيل طالب جديد</h1>
+<p>إعداد: ملك عوني شقورة - نظم معلومات</p>
+<hr>
+
+<form>
+
+<p>
+<label>الاسم الكامل:</label><br>
+<input type="text" required placeholder="اكتبي اسمك">
+</p>
+
+<p>
+<label>البريد الالكتروني:</label><br>
+<input type="email" required placeholder="example@email.com">
+</p>
+
+<p>
+<label>كلمة المرور:</label><br>
+<input type="password" required minlength="6" placeholder="6 أحرف على الأقل">
+</p>
+
+<p>
+<label>تأكيد كلمة المرور:</label><br>
+<input type="password" required minlength="6">
+</p>
+
+<p>
+<label>العمر:</label><br>
+<input type="number" min="17" max="60" required>
+</p>
+
+<p>
+<label>الجنس:</label><br>
+<input type="radio" name="gender" required> أنثى
+<input type="radio" name="gender"> ذكر
+</p>
+
+<p>
+<label>التخصص:</label><br>
+<select required>
+<option value="">اختاري تخصصك</option>
+<option>نظم معلومات</option>
+<option>تكنولوجيا معلومات</option>
+<option>علوم حاسوب</option>
+</select>
+</p>
+
+<p>
+<input type="checkbox" required> أوافق على الشروط
+</p>
+
+<p>
+<button type="submit">تسجيل</button>
+<button type="reset">مسح</button>
+</p>
+
+</form>
+
+<hr>
+<a href="cv.html">العودة للسيرة الذاتية</a>
+
+</body>
+</html>
